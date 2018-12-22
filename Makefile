@@ -9,3 +9,6 @@ test: ## test テストの実行
 
 build: ## バイナリをビルドする
 	@./build.sh
+
+release: release # バイナリをリリースする. 引数に `_VER=バージョン番号` を指定する.
+	@ghr -u inokappa -r bibuild v${_VER} ./pkg/

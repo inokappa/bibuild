@@ -1,0 +1,5 @@
+default:
+  project_name: "your-source-s3-bucket"
+  source_bucket: "your-codebuild-project"
+  source_key: "source.zip"
+  directory: "your-source-directory"

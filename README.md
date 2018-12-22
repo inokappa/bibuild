@@ -1,4 +1,4 @@
-# bibuild
+# bibuild [![CircleCI](https://circleci.com/gh/inokappa/bibuild.svg?style=svg)](https://circleci.com/gh/inokappa/bibuild)
 
 ## これなに
 

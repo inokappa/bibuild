@@ -177,7 +177,7 @@ func main() {
 		bucket = appConfig["source_bucket"].(string)
 	}
 	if bucket == "" {
-		emoji.Println(":bangbang: CodePipeline 又は CodeBuild 用のソースバケットが指定されていません.")
+		emoji.Println(":bangbang: CodeBuild 用のソースバケットが指定されていません.")
 		os.Exit(1)
 	}
 
